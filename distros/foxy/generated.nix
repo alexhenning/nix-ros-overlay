@@ -972,6 +972,8 @@ self: super: {
 
  ros2controlcli = self.callPackage ./ros2controlcli {};
 
+ ros2doctor = self.callPackage ./ros2doctor {};
+
  ros2interface = self.callPackage ./ros2interface {};
 
  ros2launch = self.callPackage ./ros2launch {};
