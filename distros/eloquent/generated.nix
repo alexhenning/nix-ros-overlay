@@ -1,5 +1,5 @@
 
-# Copyright 2020 Open Source Robotics Foundation
+# Copyright 2021 Open Source Robotics Foundation
 # Distributed under the terms of the BSD license
 
 self: super: {
@@ -803,6 +803,8 @@ self: super: {
  ros2cli = self.callPackage ./ros2cli {};
 
  ros2component = self.callPackage ./ros2component {};
+
+ ros2doctor = self.callPackage ./ros2doctor {};
 
  ros2interface = self.callPackage ./ros2interface {};
 

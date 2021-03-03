@@ -8,6 +8,8 @@ buildPythonPackage rec {
     sha256 = "5f96ce813c2964cf292429ba683b1278afa80043b11a479d829ce8246546a605";
   };
 
+  doCheck = false;
+
   meta = with lib; {
     homepage = "https://github.com/ftao/python-ifcfg";
     license = licenses.bsdOriginal;
