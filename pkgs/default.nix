@@ -24,6 +24,8 @@ self: super: with super.lib; let
 
       colcon-test-result = pySelf.callPackage ./colcon/test-result.nix { };
 
+      ifcfg = pySelf.callPackage ./ifcfg { };
+
       empy = pySelf.callPackage ./empy { };
 
       rosdep = pySelf.callPackage ./rosdep { };
